@@ -24,4 +24,14 @@ void main() {
     int anneeDeNaissance = 2002;
     String nomComplet = prenom + " " + nom;
     System.out.println(nomComplet + " est né en " + anneeDeNaissance + " il a donc 24 ans.");
+
+    // Exerccice 3
+    int a = 2;
+    int b = 2;
+
+    if (a == b){
+        System.out.println(a + " = " + b);
+    }else {
+        System.out.println("a et b sont différents");
+    }
 }
