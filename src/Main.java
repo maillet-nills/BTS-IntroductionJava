@@ -53,4 +53,9 @@ void main() {
     }else {
         System.out.println("Les trois variables ne sont pas identiques");
     }
+
+    // Exercice 6
+    for (int i = 0; i < 11; i++){
+        System.out.println(i);
+    }
 }
