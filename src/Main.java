@@ -34,4 +34,12 @@ void main() {
     }else {
         System.out.println("a et b sont différents");
     }
+
+    // Exercice 4
+    /* 1) false
+    *  2) true
+    *  3) false
+    *  4) true
+    *  5) false
+    *  6) true */
 }
