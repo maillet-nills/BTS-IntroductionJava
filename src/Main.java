@@ -42,4 +42,15 @@ void main() {
     *  4) true
     *  5) false
     *  6) true */
+
+    // Exercice 5
+    a = 3;
+    b = 11;
+    int c = 5;
+
+    if (a == b && b == c){
+        System.out.println("Les trois variables sont égales");
+    }else {
+        System.out.println("Les trois variables ne sont pas identiques");
+    }
 }
