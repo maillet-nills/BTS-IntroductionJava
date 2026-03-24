@@ -65,4 +65,27 @@ void main() {
         System.out.println(i);
         i++;
     }
+
+    // Exercice 8
+    ArrayList<Float> notes = new ArrayList<Float>();
+    notes.add(12.5F);
+    notes.add(13F);
+    notes.add(15F);
+
+    System.out.println(notes);
+
+    notes.set(1, 15F);
+
+    System.out.println(notes);
+
+    notes.add(12F);
+    notes.add(15F);
+    notes.add(16F);
+
+    int sum = 0;
+
+    for (int j = 0; j < notes.size(); j++){
+        sum += notes.get(j);
+    }
+    System.out.println("La moyenne est : " + sum / notes.size());
 }
