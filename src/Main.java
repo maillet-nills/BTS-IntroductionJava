@@ -17,4 +17,11 @@ void main() {
     System.out.println(double_number);
     System.out.println(bool_variable);
     System.out.println(str);
+
+    // Exercice 2
+    String nom = "Dupont";
+    String prenom = "Pierre";
+    int anneeDeNaissance = 2002;
+    String nomComplet = prenom + " " + nom;
+    System.out.println(nomComplet + " est né en " + anneeDeNaissance + " il a donc 24 ans.");
 }
